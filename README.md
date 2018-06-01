@@ -35,14 +35,22 @@ https://github.com/cokebar/openwrt-vlmcsd/tree/gh-pages
 编译方法：
 ——————————————————————————————————————————————————
 cd package/
+
 git clone https://github.com/cokebar/luci-app-vlmcsd.git
+
 git clone https://github.com/cokebar/openwrt-vlmcsd.git
+
 cd ..
+
 make menuconfig
 
+
 / 搜索vlmcsd位置
+
 make package/openwrt-vlmcsd/compile V=s
+
 make package/luci-app-vlmcsd/compile V=s
+
 
 ——————————————————————————————————————————————————————————————
 
